@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestSuite" verbose="2"  thread-count="4">
+	<parameter name="udid" value="J7HIRKC6CYONNZNZ" />
+	<test name="DemoTest">
+		<classes>
+			<class name="com.increvenue.test.MyTest">
+				<methods>
+					<include name="demoTest" />
+				</methods>
+			</class>
+
+		</classes>
+	</test>
+</suite>

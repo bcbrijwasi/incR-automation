@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestSuite" duration-ms="53621" started-at="2018-09-30T09:54:58Z" finished-at="2018-09-30T09:55:51Z">
+    <groups>
+    </groups>
+    <test name="DemoTest" duration-ms="53621" started-at="2018-09-30T09:54:58Z" finished-at="2018-09-30T09:55:51Z">
+      <class name="com.test.myTest.MyTest">
+        <test-method status="PASS" signature="startServer(org.testng.ITestContext)[pri:0, instance:com.test.myTest.MyTest@2db7a79b]" name="startServer" is-config="true" duration-ms="63900" started-at="2018-09-30T09:53:54Z" finished-at="2018-09-30T09:54:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@57576994]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startServer -->
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:com.test.myTest.MyTest@2db7a79b]" name="launchApp" is-config="true" duration-ms="1402" started-at="2018-09-30T09:54:58Z" finished-at="2018-09-30T09:54:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="PASS" signature="demoTest()[pri:0, instance:com.test.myTest.MyTest@2db7a79b]" name="demoTest" duration-ms="52184" started-at="2018-09-30T09:54:59Z" description="demo" finished-at="2018-09-30T09:55:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoTest -->
+      </class> <!-- com.test.myTest.MyTest -->
+    </test> <!-- DemoTest -->
+  </suite> <!-- TestSuite -->
+</testng-results>
