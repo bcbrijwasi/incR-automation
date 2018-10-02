@@ -1,11 +1,12 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="TestSuite" verbose="2"  thread-count="4">
-	<parameter name="udid" value="J7HIRKC6CYONNZNZ" />
+	<parameter name="udid" value="" />
+	<parameter name="emulator_name" value="DemoEmulator" />
 	<test name="DemoTest">
 		<classes>
-			<class name="com.increvenue.test.MyTest">
+			<class name="com.increvenue.test.IncRevenueDemoTest">
 				<methods>
-					<include name="demoTest" />
+					<include name="incRevenueAssigmentOne" />
 				</methods>
 			</class>
 

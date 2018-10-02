@@ -2,31 +2,39 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="TestSuite" duration-ms="53621" started-at="2018-09-30T09:54:58Z" finished-at="2018-09-30T09:55:51Z">
+  <suite name="TestSuite" duration-ms="23140" started-at="2018-10-02T17:08:21Z" finished-at="2018-10-02T17:08:44Z">
     <groups>
     </groups>
-    <test name="DemoTest" duration-ms="53621" started-at="2018-09-30T09:54:58Z" finished-at="2018-09-30T09:55:51Z">
-      <class name="com.test.myTest.MyTest">
-        <test-method status="PASS" signature="startServer(org.testng.ITestContext)[pri:0, instance:com.test.myTest.MyTest@2db7a79b]" name="startServer" is-config="true" duration-ms="63900" started-at="2018-09-30T09:53:54Z" finished-at="2018-09-30T09:54:58Z">
+    <test name="DemoTest" duration-ms="23140" started-at="2018-10-02T17:08:21Z" finished-at="2018-10-02T17:08:44Z">
+      <class name="com.increvenue.test.IncRevenueDemoTest">
+        <test-method status="PASS" signature="startServer(org.testng.ITestContext)[pri:0, instance:com.increvenue.test.IncRevenueDemoTest@78186a70]" name="startServer" is-config="true" duration-ms="71453" started-at="2018-10-02T17:07:10Z" finished-at="2018-10-02T17:08:21Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@57576994]]>
+                <![CDATA[org.testng.TestRunner@5026735c]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startServer -->
-        <test-method status="PASS" signature="launchApp()[pri:0, instance:com.test.myTest.MyTest@2db7a79b]" name="launchApp" is-config="true" duration-ms="1402" started-at="2018-09-30T09:54:58Z" finished-at="2018-09-30T09:54:59Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.increvenue.test.IncRevenueDemoTest@78186a70]" name="beforeTest" is-config="true" duration-ms="7113" started-at="2018-10-02T17:08:21Z" finished-at="2018-10-02T17:08:28Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launchApp -->
-        <test-method status="PASS" signature="demoTest()[pri:0, instance:com.test.myTest.MyTest@2db7a79b]" name="demoTest" duration-ms="52184" started-at="2018-09-30T09:54:59Z" description="demo" finished-at="2018-09-30T09:55:51Z">
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="incRevenueAssigmentOne()[pri:0, instance:com.increvenue.test.IncRevenueDemoTest@78186a70]" name="incRevenueAssigmentOne" duration-ms="14692" started-at="2018-10-02T17:08:28Z" description="download an APK file from any url and install it on device then run the test on the application" finished-at="2018-10-02T17:08:43Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- demoTest -->
-      </class> <!-- com.test.myTest.MyTest -->
+        </test-method> <!-- incRevenueAssigmentOne -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.increvenue.test.IncRevenueDemoTest@78186a70]" name="afterTest" is-config="true" duration-ms="1310" started-at="2018-10-02T17:08:43Z" finished-at="2018-10-02T17:08:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.increvenue.test.IncRevenueDemoTest@78186a70]" name="afterSuite" is-config="true" duration-ms="2723" started-at="2018-10-02T17:08:45Z" finished-at="2018-10-02T17:08:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.increvenue.test.IncRevenueDemoTest -->
     </test> <!-- DemoTest -->
   </suite> <!-- TestSuite -->
 </testng-results>

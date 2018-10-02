@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite thread-count="4" guice-stage="DEVELOPMENT" verbose="2" name="Failed suite [TestSuite]">
-  <parameter name="udid" value="RQ3003VP3E"/>
+  <parameter name="emulator_name" value="DemoEmulator"/>
+  <parameter name="udid" value=""/>
   <test thread-count="4" verbose="2" name="DemoTest(failed)">
     <classes>
-      <class name="com.test.myTest.MyTest">
+      <class name="com.increvenue.test.IncRevenueDemoTest">
         <methods>
+          <include name="afterSuite"/>
+          <include name="afterTest"/>
+          <include name="incRevenueAssigmentOne"/>
+          <include name="beforeTest"/>
           <include name="startServer"/>
-          <include name="launchApp"/>
-          <include name="demoTest"/>
         </methods>
-      </class> <!-- com.test.myTest.MyTest -->
+      </class> <!-- com.increvenue.test.IncRevenueDemoTest -->
     </classes>
   </test> <!-- DemoTest(failed) -->
 </suite> <!-- Failed suite [TestSuite] -->
